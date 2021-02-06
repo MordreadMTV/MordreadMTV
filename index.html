@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Keeping up with MordreadMTV. List of links to all the platforms I use.">
+  <meta name="author" content="Kai Asuncion">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MordreadMTV</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Mono&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Roboto Mono', monospace;
+      font-size: 100%;
+      min-height: 100vh;
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: #14021a;
+      background-image: linear-gradient(43deg, #14021a 0%, #C850C0 46%, #67357a 100%);
+    }
+    .container {
+      margin: 4rem 1rem;
+      padding: 2rem 1rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 0 2rem black;
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      max-width: 800px;
+      background-color: rgba(102, 53, 122, 0.603);
+    }
+    .avatar img {
+      object-fit: cover;
+      object-position: center;
+      margin-bottom: 1rem;
+      border-radius: 100%;
+      box-shadow: 0 0 0.5rem black;
+      overflow: hidden;
+    }
+    h1 {
+      font-family: 'Press Start 2P', sans-serif;
+      margin-bottom: 1rem;
+      width: 90%;
+      text-align: center;
+      color: white;
+    }
+    .bio {
+      text-align: center;
+      width: 90%;
+      padding: 0.5rem 1.5rem 1rem 1.5rem;
+      border-radius: 0.25rem;
+      color: white;
+      box-shadow: 0 0 0.25rem black;
+    }
+    .emoji {
+      font-size: 2rem;
+    }
+    .link-container {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      max-width: 600px;
+    }
+    .link-container a {
+      display: grid;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      padding: 2rem 2rem;
+      margin: 2rem auto;
+      border-radius: 0.5rem;
+      border: none;
+      width: 100%;
+      font-size: 1.5rem;
+      transition: 0.3s ease-in-out;
+      text-decoration: none;
+      box-shadow: 0 0 0.25rem black;
+    }
+    .link-container a:hover {
+      background-color: #14021a;
+      color: black;
+    }
+    .link-container img {
+      height: 3rem;
+    }
+    @media only screen and (min-width: 800px) {
+      .link-container a {
+        width: 25%;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="avatar">
+    <img src="/assets/avatar-the-last-air-bender.jpg" height="300" width="300" alt="logo">
+  </div>
+  <h1>MordreadMTV</h1>
+  <div class="bio">
+    <p class="emoji">🎮</p>
+    <p>Twitch streamer and multi media artist</p>
+  </div>
+  <div class="link-container">
+    <a title="Twitter@MordreadMTV" href="https://twitter.com/MordreadMTV"><img src="/assets/icons/407-twitter.svg" alt="Twitter"></a>
+    <a title="Instagram@mordreadmtv" href="https://www.instagram.com/mordreadmtv/"><img src="/assets/icons/403-instagram.svg" alt="Instagram"></a>
+    <a title="Twitch@MordreadMTV" href="https://www.twitch.tv/mordreadmtv/videos" class="icon"><img src="/assets/icons/416-twitch.svg" alt="Twitch"></a>
+    <a title="Spotify" href="https://open.spotify.com/user/1235345769?si=4iwaFYc8RQGwS7kc-p_DsQ"><img src="/assets/icons/405-spotify.svg" alt="Spotify"></a>
+  </div>
+</div>
+</body>
+</html>
